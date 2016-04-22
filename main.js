@@ -30,17 +30,20 @@ function negativeIndex(arry, negNum){
 console.log(negativeIndex(['a', 'b', 'c', 'd', 'e'], -3));
 
 //#5
-function removeM () {
-    var noMText = '';
+function removeM (string) {
+    var removeMs = '';
     for (var i = 0; i < string.length; i++) {
         if (string[i] === 'm'){
             
         } else {
-            noText += string[i];
+            removeMs += string[i];
         }
     }
-    console.log(noMText);
+    console.log(removeMs);
 }
 removeM('memory');
 
 //#6
+//come back to it
+
+//#7
